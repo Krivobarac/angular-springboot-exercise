@@ -35,7 +35,7 @@ public class Book {
 	@Column(length = 255)
 	private String description;
 	@Getter @Setter
-	@Column(length = 13, precision = 2)
+	@Column(precision = 13)
 	private BigDecimal unitPrice;
 	@Getter @Setter
 	@Column(length = 255)
